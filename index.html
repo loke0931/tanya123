@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Для самой любимой девушки на свете!!!!</title>
+    <style>
+         :root {
+            --bg-color: #fff8f5;
+            --primary-color: #ffc0cb;
+            --accent-color: #f4e1d2;
+            --text-color: #5c4b51;
+            --font-family: 'Segoe UI', sans-serif;
+        }
+        
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            background-color: var(--bg-color);
+            font-family: var(--font-family);
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+        
+        header.hero {
+            background: url('https://10wallpaper.com/wallpaper/2560x1600/1111/Flax-Fresh_and_natural_flowers_Desktop_Wallpapers_2560x1600.jpg') no-repeat center center/cover;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+            padding: 20px;
+        }
+        
+        .hero h1 {
+            font-size: 3em;
+            background: rgba(0, 0, 0, 0.4);
+            padding: 10px 20px;
+            border-radius: 10px;
+        }
+        
+        .hero p {
+            font-size: 1.2em;
+            margin-top: 10px;
+            background: rgba(0, 0, 0, 0.3);
+            padding: 8px 16px;
+            border-radius: 10px;
+        }
+        
+        section {
+            padding: 40px 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+        
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: var(--primary-color);
+        }
+        /* Галерея */
+        
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 10px;
+        }
+        
+        .gallery img {
+            width: 100%;
+            border-radius: 10px;
+            object-fit: cover;
+            height: 150px;
+        }
+        /* Письмо */
+        
+        .letter {
+            background: var(--accent-color);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            font-style: italic;
+            font-size: 1.1em;
+        }
+        /* Видео / аудио */
+        
+        .media {
+            text-align: center;
+        }
+        
+        .media iframe,
+        .media audio {
+            margin-top: 15px;
+            width: 100%;
+            max-width: 600px;
+            border-radius: 10px;
+        }
+        /* Футер */
+        
+        footer {
+            background-color: var(--primary-color);
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 1.1em;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+        }
+        
+        @media (max-width: 600px) {
+            .hero h1 {
+                font-size: 2em;
+            }
+            .hero p {
+                font-size: 1em;
+            }
+            .letter {
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="hero">
+        <h1>Для самой любимой девушки на свете 💖</h1>
+        <p>Ты — моё солнце, мой мир, моя душа</p>
+    </header>
+
+    <section id="gallery">
+        <h2>📸 Наши воспоминания</h2>
+        <div class="gallery">
+            <!-- Просто добавляй свои <img> сюда -->
+            <img src="https://s.iimg.su/s/24/KhGoW1NFpBDfWqzHMzGJxpYDZzyLeUR1z3Ui94bl.png" alt="Фото 1">
+            <img src="https://s.iimg.su/s/24/th_PK8yNF9JJBb73YeymBo456GqKOWkYz8EpyRP5ycF.png" alt="Фото 2">
+            <img src="https://s.iimg.su/s/24/th_3GQIOo2bIOoNGrrlrxp5X6CUsIXXIK7uSUzrEDuv.png" alt="Фото 3">
+            <!-- Добавь больше фото при необходимости -->
+        </div>
+    </section>
+
+    <section id="letter">
+        <h2>💌 Мои чувства к тебе</h2>
+        <div class="letter">
+            Моя любимая,<br><br> Ты — чудо, которое появилось в моей жизни и навсегда её изменило. С тобой каждый день наполнен светом, теплом и смыслом. Я благодарен за каждый миг рядом с тобой и мечтаю о будущем, полном любви и счастья. Хоть мы и вугаемся
+            сюсють, хоть ти и пукаес на миня, я все равно очень сильно люблю тебя Ты — моё всё.<br><br> С любовью, <br> Пука
+        </div>
+    </section>
+
+    <section id="media">
+        <h2>🎵 Наши звуки любви</h2>
+        <div class="media">
+            <!-- Замените ссылку на свою песню/видео -->
+            <iframe width="560" height="315" src="https://pouch.jumpshare.com/preview/zAhdT61mcSj10en9Pc6tv9qyRgqFrkR_EBVsMR7HcvZPQ0loSJMUvOJwTrlif4iI4bMscnPmAHkfgkA3btQ7GuF8vST_ME_1FZ6tf21sNbbvH4mDihsCl0NXvtwP2V16nr83_yKiDh6AMgrEBpnP9W6yjbN-I2pg_cnoHs_AmgI.mp4"
+                frameborder="0" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <footer>
+        Ты — моё вдохновение 💖
+    </footer>
+
+</body>
+
+</html>
